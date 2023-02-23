@@ -1,0 +1,11 @@
+# Regexp that matchs any url in the main_url query_string
+in_query_url_regexp = re.compile(r"(\S+?\=https?(?:\:\/\/|%3A%2F%2F))\S*?(\&|$)")
+
+# Regexp that matches any url in the main_url query that contain extension
+in_query_url_regexp_with_ext = re.compile(r"(\S+?\=https?(?:\:\/\/|%3A%2F%2F))[^\&]+?(?:\/|%2F)[^\&]+?(\.\w+?(?:\&|$))")
+
+# Regexp that matches any url in the main url path
+in_path_url_regexp = re.compile(r"(^https?\:\/\/[^\?]+https?(?:\:\/\/|%3A%2F%2F))\S*")
+
+# Regexp that matches any url parameters that seems to be vulnerable
+likely_vuln_params_regexp = re.compile(r"((?:\?|\&)[a-zA-Z0-9_-]*?(?:url|location|path|site)\=)[^\&]*?(\&|$)", re.IGNORECASE)

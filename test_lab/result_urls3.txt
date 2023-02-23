@@ -1,0 +1,6 @@
+https://www.unicom.zr/user/data/location/https://www.example.com
+https://www.unicom.zr/user/data/location/https%3A%2F%2Fwww.example.com
+https://damass.com/users/data?mydata=https%3A%2F%2Fwww.mydata.com%2Fastion
+http://api.skjhhd.cdjdhd.com/jdhgf/djhfgffh/https%3A%2F%2Fwww.example.com
+https://www.myuser.com/signs/done
+https://www.acaidrain.com/units/location/http%3A%2F%2Fwww.example.com
